@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -11,7 +12,7 @@ body {
 	
 }
 
-main h1, main h2 {
+h1, h2 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 800;
 	font-size: 38px;
@@ -21,12 +22,11 @@ main h1, main h2 {
 	
 }
 
-main h2 {
+h2 {
 
     font-size: 30px;
 
 }
-
 
 
 hr { 
@@ -43,6 +43,7 @@ img {
 	display: block;
 }
 
+
 h3{
 	
 	text-align: center;
@@ -54,55 +55,71 @@ h3{
 	font-weight: 700;
 }
 
+ .content p  {
 
 
-
-main .content p  {
-
-	line-height: 1.3;
 	text-align: left;
-	font-size: 16px;
 	margin: 0 auto;
 	width: 650px;
 	font-family: 'Times New Roman', Times, serif;
+	line-height: 1.3;
+	font-size: 16px;
 
 
 }
 
-
 .special_offer h2 {
+
+	color: #bc0000;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 14px;
+	text-align: center;
+
+	/* margin-bottom:20px; */
+	
+
+
+}
+
+.special_offer p{
+
+	font-size: 12px;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	line-height: 1.5;
+}
+
+
+/* .special_offer h2 {
 	color: #bc0000;
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 700;
-	font-size: 14.5px;
+	font-size: 16pt;
 	text-align: center;
 	line-height: 1.1;
 	margin-bottom:20px;
-	min-width: 620px;
+	width: 650px;
 
 }
-
-
-
 
 .special_offer p {
 	 
-	font-size: 15px;
+	font-size: 16pt;
 	line-height: 1.5;
-	margin: 0 auto;
+	margin: 0;
 	text-align: justify;
-	width: 620px;
+	width: 650px;
 	font-family: 'Times New Roman', Times, serif;
 
 	
-}
+} */
 
 
 
 .special_offer {
 
 	
-	padding: 1rem;
+
 	margin-top:20px;
 	margin-bottom: 80px;
 
